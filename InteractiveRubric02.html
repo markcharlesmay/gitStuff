@@ -1,0 +1,1158 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>InteractiveRubric</title>
+  <link href="InteractiveRubric02.css" rel="stylesheet" type="text/css"/>
+</head>
+
+<body>
+
+		<script type="text/javascript">
+      //only one at a time
+      function validatorA03() {
+        if (document.author03.bigBox.checked == true) {
+          document.author02.bigBox.checked = false;
+          document.author01.bigBox.checked = false;
+          document.author00.bigBox.checked = false;
+        }
+      }
+      function validatorA02() {
+        if (document.author02.bigBox.checked == true) {
+          document.author03.bigBox.checked = false;
+          document.author01.bigBox.checked = false;
+          document.author00.bigBox.checked = false;
+        }
+      }
+      function validatorA01() {
+        if (document.author01.bigBox.checked == true) {
+          document.author03.bigBox.checked = false;
+          document.author02.bigBox.checked = false;
+          document.author00.bigBox.checked = false;
+        }
+      }
+      function validatorA00() {
+        if (document.author00.bigBox.checked == true) {
+          document.author03.bigBox.checked = false;
+          document.author02.bigBox.checked = false;
+          document.author01.bigBox.checked = false;
+        }
+      }
+      function validatorPB03() {
+        if (document.publisher03.bigBox.checked == true) {
+          document.publisher02.bigBox.checked = false;
+          document.publisher01.bigBox.checked = false;
+          document.publisher00.bigBox.checked = false;
+        }
+      }
+      function validatorPB02() {
+        if (document.publisher02.bigBox.checked == true) {
+          document.publisher03.bigBox.checked = false;
+          document.publisher01.bigBox.checked = false;
+          document.publisher00.bigBox.checked = false;
+        }
+      }
+      function validatorPB01() {
+        if (document.publisher01.bigBox.checked == true) {
+          document.publisher03.bigBox.checked = false;
+          document.publisher02.bigBox.checked = false;
+          document.publisher00.bigBox.checked = false;
+        }
+      }
+      function validatorPB00() {
+        if (document.publisher00.bigBox.checked == true) {
+          document.publisher03.bigBox.checked = false;
+          document.publisher02.bigBox.checked = false;
+          document.publisher01.bigBox.checked = false;
+        }
+      }
+      function validatorSC03() {
+        if (document.source03.bigBox.checked == true) {
+          document.source02.bigBox.checked = false;
+          document.source01.bigBox.checked = false;
+          document.source00.bigBox.checked = false;
+        }
+      }
+      function validatorSC02() {
+        if (document.source02.bigBox.checked == true) {
+          document.source03.bigBox.checked = false;
+          document.source01.bigBox.checked = false;
+          document.source00.bigBox.checked = false;
+        }
+      }
+      function validatorSC01() {
+        if (document.source01.bigBox.checked == true) {
+          document.source03.bigBox.checked = false;
+          document.source02.bigBox.checked = false;
+          document.source00.bigBox.checked = false;
+        }
+      }
+      function validatorSC00() {
+        if (document.source00.bigBox.checked == true) {
+          document.source03.bigBox.checked = false;
+          document.source02.bigBox.checked = false;
+          document.source01.bigBox.checked = false;
+        }
+      }
+      function validatorPP03() {
+        if (document.purpose03.bigBox.checked == true) {
+          document.purpose02.bigBox.checked = false;
+          document.purpose01.bigBox.checked = false;
+          document.purpose00.bigBox.checked = false;
+        }
+      }
+      function validatorPP02() {
+        if (document.purpose02.bigBox.checked == true) {
+          document.purpose03.bigBox.checked = false;
+          document.purpose01.bigBox.checked = false;
+          document.purpose00.bigBox.checked = false;
+        }
+      }
+      function validatorPP01() {
+        if (document.purpose01.bigBox.checked == true) {
+          document.purpose03.bigBox.checked = false;
+          document.purpose02.bigBox.checked = false;
+          document.purpose00.bigBox.checked = false;
+        }
+      }
+      function validatorPP00() {
+        if (document.purpose00.bigBox.checked == true) {
+          document.purpose03.bigBox.checked = false;
+          document.purpose02.bigBox.checked = false;
+          document.purpose01.bigBox.checked = false;
+        }
+      }
+      function validatorD03() {
+        if (document.date03.bigBox.checked == true) {
+          document.date02.bigBox.checked = false;
+          document.date01.bigBox.checked = false;
+          document.date00.bigBox.checked = false;
+        }
+      }
+      function validatorD02() {
+        if (document.date02.bigBox.checked == true) {
+          document.date03.bigBox.checked = false;
+          document.date01.bigBox.checked = false;
+          document.date00.bigBox.checked = false;
+        }
+      }
+      function validatorD01() {
+        if (document.date01.bigBox.checked == true) {
+          document.date03.bigBox.checked = false;
+          document.date02.bigBox.checked = false;
+          document.date00.bigBox.checked = false;
+        }
+      }
+      function validatorD00() {
+        if (document.date00.bigBox.checked == true) {
+          document.date03.bigBox.checked = false;
+          document.date02.bigBox.checked = false;
+          document.date01.bigBox.checked = false;
+        }
+      }
+      function validatorSB03() {
+        if (document.substance03.bigBox.checked == true) {
+          document.substance02.bigBox.checked = false;
+          document.substance01.bigBox.checked = false;
+          document.substance00.bigBox.checked = false;
+        }
+      }
+      function validatorSB02() {
+        if (document.substance02.bigBox.checked == true) {
+          document.substance03.bigBox.checked = false;
+          document.substance01.bigBox.checked = false;
+          document.substance00.bigBox.checked = false;
+        }
+      }
+      function validatorSB01() {
+        if (document.substance01.bigBox.checked == true) {
+          document.substance03.bigBox.checked = false;
+          document.substance02.bigBox.checked = false;
+          document.substance00.bigBox.checked = false;
+        }
+      }
+      function validatorSB00() {
+        if (document.substance00.bigBox.checked == true) {
+          document.substance03.bigBox.checked = false;
+          document.substance02.bigBox.checked = false;
+          document.substance01.bigBox.checked = false;
+        }
+      }
+        function add(){
+        //adds everything up
+        var author = 0;
+        var publisher = 0;
+        var source = 0;
+        var purpose = 0; 
+        var date = 0; 
+        var substance = 0;
+        var elem1 = document.getElementById("total");
+        var elem2 = document.getElementById("A1");
+        var elem3 = document.getElementById("P1");
+        var elem4 = document.getElementById("S1");
+        var elem5 = document.getElementById("P2");
+        var elem6 = document.getElementById("D1");
+        var elem7 = document.getElementById("S2");
+        if (document.author03.bigBox.checked == true) {
+          var author = 3;
+        }
+        if (document.author02.bigBox.checked == true) {
+          var author = 2;
+        }
+        if (document.author01.bigBox.checked == true) {
+          var author = 1;
+        }
+        if (document.author00.bigBox.checked == true) {
+          var author = 0;
+        }
+        if (document.publisher03.bigBox.checked == true) {
+          var publisher = 3;
+        }
+        if (document.publisher02.bigBox.checked == true) {
+          var publisher = 2;
+        }
+        if (document.publisher01.bigBox.checked == true) {
+          var publisher = 1;
+        }
+        if (document.publisher00.bigBox.checked == true) {
+          var publisher = 0;
+        }
+        if (document.source03.bigBox.checked == true) {
+          var source = 3;
+        }
+        if (document.source02.bigBox.checked == true) {
+          var source = 2;
+        }
+        if (document.source01.bigBox.checked == true) {
+          var source = 1;
+        }
+        if (document.source00.bigBox.checked == true) {
+          var source = 0;
+        }
+        if (document.purpose03.bigBox.checked == true) {
+          var purpose = 3;
+        }
+        if (document.purpose02.bigBox.checked == true) {
+          var purpose = 2;
+        }
+        if (document.purpose01.bigBox.checked == true) {
+          var purpose = 1;
+        }
+        if (document.purpose00.bigBox.checked == true) {
+          var purpose = 0;
+        }
+        if (document.date03.bigBox.checked == true) {
+          var date = 3;
+        }
+        if (document.date02.bigBox.checked == true) {
+          var date = 2;
+        }
+        if (document.date01.bigBox.checked == true) {
+          var date = 1;
+        }
+        if (document.date00.bigBox.checked == true) {
+          var date = 0;
+        }
+        if (document.substance03.bigBox.checked == true) {
+          var substance = 3;
+        }
+        if (document.substance02.bigBox.checked == true) {
+          var substance = 2;
+        }
+        if (document.substance01.bigBox.checked == true) {
+          var substance = 1;
+        }
+        if (document.substance00.bigBox.checked == true) {
+          var substance = 0;
+        }     
+        elem1.innerHTML = author + publisher + source + purpose + date + substance;
+        //change background of bottom/total score
+        var elemT = document.getElementById("stuff");
+        var elemL = document.getElementById("lowScore");
+        var elemML = document.getElementById("lowMedScore");
+        var elemMH = document.getElementById("highMedScore");
+        var elemH = document.getElementById("highScore");
+        if (elem1.innerHTML <= 18 && elem1.innerHTML >= 15) {
+          elemT.style.background = "green";
+          elemH.style.background = "green";
+        }
+        else {
+          elemH.style.background = "white";
+        }
+        if (elem1.innerHTML <= 14 && elem1.innerHTML >= 11) {
+          elemT.style.background = "yellow";
+          elemMH.style.background = "yellow";
+        }
+        else {
+          elemMH.style.background = "white";
+        }
+        if (elem1.innerHTML <= 10 && elem1.innerHTML >= 7) {
+          elemT.style.background = "  #FF8C00";
+          elemML.style.background = " #FF8C00";
+        }
+        else {
+          elemML.style.background = "white";
+        }
+        if (elem1.innerHTML <= 6 && elem1.innerHTML >= 0) {
+          elemT.style.background = "#CC0000";
+          elemL.style.background = "#CC0000";
+        }
+        else {
+          elemL.style.background = "white";
+        }
+        elem2.innerHTML = author;
+        elem3.innerHTML = publisher;
+        elem4.innerHTML = source;
+        elem5.innerHTML = purpose;
+        elem6.innerHTML = date;
+        elem7.innerHTML = substance;
+      }
+      //changes box color
+      function killMePleaseA3() {
+        var elemS1 = document.getElementById("side1");
+        if (document.author03.bigBox.checked == true) {
+          elemS1.style.background = "green";
+        } else {
+          elemS1.style.background = "white";
+        }  
+      }
+      function killMePleaseA2() {
+        var elemS1 = document.getElementById("side1");
+        if (document.author02.bigBox.checked == true) {
+          elemS1.style.background = "yellow";
+        } else {
+          elemS1.style.background = "white";
+        } 
+      }
+      function killMePleaseA1() {
+        var elemS1 = document.getElementById("side1");
+        if (document.author01.bigBox.checked == true) {
+          elemS1.style.background = " #FF8C00";
+        } else {
+          elemS1.style.background = "white";
+        } 
+      }
+      function killMePleaseA0() {
+        var elemS1 = document.getElementById("side1");
+        if (document.author00.bigBox.checked == true) {
+          elemS1.style.background = "#CC0000";
+        } 
+        else {
+          elemS1.style.background = "white";
+        } 
+      }
+      function killMePleasePB3() {
+        var elemS2 = document.getElementById("side2");
+        if (document.publisher03.bigBox.checked == true) {
+          elemS2.style.background = "green";
+        } else {
+          elemS2.style.background = "white";
+        }  
+      }
+      function killMePleasePB2() {
+        var elemS2 = document.getElementById("side2");
+        if (document.publisher02.bigBox.checked == true) {
+          elemS2.style.background = "yellow";
+        } else {
+          elemS2.style.background = "white";
+        }  
+      }
+      function killMePleasePB1() {
+        var elemS2 = document.getElementById("side2");
+        if (document.publisher01.bigBox.checked == true) {
+          elemS2.style.background = " #FF8C00";
+        } else {
+          elemS2.style.background = "white";
+        }  
+      }
+      function killMePleasePB0() {
+        var elemS2 = document.getElementById("side2");
+        if (document.publisher00.bigBox.checked == true) {
+          elemS2.style.background = "#CC0000";
+        } else {
+          elemS2.style.background = "white";
+        }  
+      }
+      function killMePleaseSC3() {
+        var elemS3 = document.getElementById("side3");
+        if (document.source03.bigBox.checked == true) {
+          elemS3.style.background = "green";
+        } else {
+          elemS3.style.background = "white";
+        }  
+      }
+      function killMePleaseSC2() {
+        var elemS3 = document.getElementById("side3");
+        if (document.source02.bigBox.checked == true) {
+          elemS3.style.background = "yellow";
+        } else {
+          elemS3.style.background = "white";
+        }  
+      }
+      function killMePleaseSC1() {
+        var elemS3 = document.getElementById("side3");
+        if (document.source01.bigBox.checked == true) {
+          elemS3.style.background = " #FF8C00";
+        } else {
+          elemS3.style.background = "white";
+        }  
+      }
+      function killMePleaseSC0() {
+        var elemS3 = document.getElementById("side3");
+        if (document.source00.bigBox.checked == true) {
+          elemS3.style.background = "#CC0000";
+        } else {
+          elemS3.style.background = "white";
+        }  
+      }
+      function killMePleasePP3() {
+        var elemS4 = document.getElementById("side4");
+        if (document.purpose03.bigBox.checked == true) {
+          elemS4.style.background = "green";
+        } else {
+          elemS4.style.background = "white";
+        }  
+      }
+      function killMePleasePP2() {
+        var elemS4 = document.getElementById("side4");
+        if (document.purpose02.bigBox.checked == true) {
+          elemS4.style.background = "yellow";
+        } else {
+          elemS4.style.background = "white";
+        }  
+      }
+      function killMePleasePP1() {
+        var elemS4 = document.getElementById("side4");
+        if (document.purpose01.bigBox.checked == true) {
+          elemS4.style.background = " #FF8C00";
+        } else {
+          elemS4.style.background = "white";
+        }  
+      }
+      function killMePleasePP0() {
+        var elemS4 = document.getElementById("side4");
+        if (document.purpose00.bigBox.checked == true) {
+          elemS4.style.background = "#CC0000";
+        } else {
+          elemS4.style.background = "white";
+        }  
+      }
+      function killMePleaseD3() {
+        var elemS5 = document.getElementById("side5");
+        if (document.date03.bigBox.checked == true) {
+          elemS5.style.background = "green";
+        } else {
+          elemS5.style.background = "white";
+        }  
+      }
+      function killMePleaseD2() {
+        var elemS5 = document.getElementById("side5");
+        if (document.date02.bigBox.checked == true) {
+          elemS5.style.background = "yellow";
+        } else {
+          elemS5.style.background = "white";
+        }  
+      }
+      function killMePleaseD1() {
+        var elemS5 = document.getElementById("side5");
+        if (document.date01.bigBox.checked == true) {
+          elemS5.style.background = " #FF8C00";
+        } else {
+          elemS5.style.background = "white";
+        }  
+      }
+      function killMePleaseD0() {
+        var elemS5 = document.getElementById("side5");
+        if (document.date00.bigBox.checked == true) {
+          elemS5.style.background = "#CC0000";
+        } else {
+          elemS5.style.background = "white";
+        }  
+      }
+      function killMePleaseSB3() {
+        var elemS6 = document.getElementById("side6");
+        if (document.substance03.bigBox.checked == true) {
+          elemS6.style.background = "green";
+        } else {
+          elemS6.style.background = "white";
+        }  
+      }
+      function killMePleaseSB2() {
+        var elemS6 = document.getElementById("side6");
+        if (document.substance02.bigBox.checked == true) {
+          elemS6.style.background = "yellow";
+        } else {
+          elemS6.style.background = "white";
+        }  
+      }
+      function killMePleaseSB1() {
+        var elemS6 = document.getElementById("side6");
+        if (document.substance01.bigBox.checked == true) {
+          elemS6.style.background = " #FF8C00";
+        } else {
+          elemS6.style.background = "white";
+        }  
+      }
+      function killMePleaseSB0() {
+        var elemS6 = document.getElementById("side6");
+        if (document.substance00.bigBox.checked == true) {
+          elemS6.style.background = "#CC0000";
+        } else {
+          elemS6.style.background = "white";
+        }  
+      }
+      //changes color of individual rows based on category 
+      function changeColorA03() {
+        var elem1 = document.getElementById("author03");
+        var elem2 = document.getElementById("author02");
+        var elem3 = document.getElementById("author01");
+        var elem4 = document.getElementById("author00");
+        if (document.author03.bigBox.checked == true) {
+         elem1.style.background = "green";
+         elem2.style.background = "white";
+         elem3.style.background = "white";
+         elem4.style.background = "white";
+        }
+      }
+      function changeColorA02() {
+        var elem1 = document.getElementById("author03");
+        var elem2 = document.getElementById("author02");
+        var elem3 = document.getElementById("author01");
+        var elem4 = document.getElementById("author00");
+        if (document.author02.bigBox.checked == true) {
+         elem2.style.background = "yellow";
+         elem1.style.background = "white";
+         elem3.style.background = "white";
+         elem4.style.background = "white";
+        }
+      }
+      function changeColorA01() {
+        var elem1 = document.getElementById("author03");
+        var elem2 = document.getElementById("author02");
+        var elem3 = document.getElementById("author01");
+        var elem4 = document.getElementById("author00");
+        if (document.author01.bigBox.checked == true) {
+         elem3.style.background = " #FF8C00";
+         elem1.style.background = "white";
+         elem2.style.background = "white";
+         elem4.style.background = "white";
+        }
+      }
+      function changeColorA00() {
+        var elem1 = document.getElementById("author03");
+        var elem2 = document.getElementById("author02");
+        var elem3 = document.getElementById("author01");
+        var elem4 = document.getElementById("author00");
+        if (document.author00.bigBox.checked == true) {
+         elem4.style.background = "#CC0000";
+         elem1.style.background = "white";
+         elem2.style.background = "white";
+         elem3.style.background = "white";
+        }
+      }
+      function changeColorPB03() {
+        var elem1 = document.getElementById("publisher03");
+        var elem2 = document.getElementById("publisher02");
+        var elem3 = document.getElementById("publisher01");
+        var elem4 = document.getElementById("publisher00");
+        if (document.publisher03.bigBox.checked == true) {
+         elem1.style.background = "green";
+         elem2.style.background = "white";
+         elem3.style.background = "white";
+         elem4.style.background = "white";
+        }
+      }
+      function changeColorPB02() {
+        var elem1 = document.getElementById("publisher03");
+        var elem2 = document.getElementById("publisher02");
+        var elem3 = document.getElementById("publisher01");
+        var elem4 = document.getElementById("publisher00");
+        if (document.publisher02.bigBox.checked == true) {
+         elem2.style.background = "yellow";
+         elem1.style.background = "white";
+         elem3.style.background = "white";
+         elem4.style.background = "white";
+        }
+      }
+      function changeColorPB01() {
+        var elem1 = document.getElementById("publisher03");
+        var elem2 = document.getElementById("publisher02");
+        var elem3 = document.getElementById("publisher01");
+        var elem4 = document.getElementById("publisher00");
+        if (document.publisher01.bigBox.checked == true) {
+         elem3.style.background = " #FF8C00";
+         elem1.style.background = "white";
+         elem2.style.background = "white";
+         elem4.style.background = "white";
+        }
+      }
+      function changeColorPB00() {
+        var elem1 = document.getElementById("publisher03");
+        var elem2 = document.getElementById("publisher02");
+        var elem3 = document.getElementById("publisher01");
+        var elem4 = document.getElementById("publisher00");
+        if (document.publisher00.bigBox.checked == true) {
+         elem4.style.background = "#CC0000";
+         elem1.style.background = "white";
+         elem2.style.background = "white";
+         elem3.style.background = "white";
+        }
+      }
+      function changeColorSC03() {
+        var elem1 = document.getElementById("source03");
+        var elem2 = document.getElementById("source02");
+        var elem3 = document.getElementById("source01");
+        var elem4 = document.getElementById("source00");
+        if (document.source03.bigBox.checked == true) {
+         elem1.style.background = "green";
+         elem2.style.background = "white";
+         elem3.style.background = "white";
+         elem4.style.background = "white";
+        }
+      }
+      function changeColorSC02() {
+        var elem1 = document.getElementById("source03");
+        var elem2 = document.getElementById("source02");
+        var elem3 = document.getElementById("source01");
+        var elem4 = document.getElementById("source00");
+        if (document.source02.bigBox.checked == true) {
+         elem2.style.background = "yellow";
+         elem1.style.background = "white";
+         elem3.style.background = "white";
+         elem4.style.background = "white";
+        }
+      }
+      function changeColorSC01() {
+        var elem1 = document.getElementById("source03");
+        var elem2 = document.getElementById("source02");
+        var elem3 = document.getElementById("source01");
+        var elem4 = document.getElementById("source00");
+        if (document.source01.bigBox.checked == true) {
+         elem3.style.background = " #FF8C00";
+         elem1.style.background = "white";
+         elem2.style.background = "white";
+         elem4.style.background = "white";
+        }
+      }
+      function changeColorSC00() {
+        var elem1 = document.getElementById("source03");
+        var elem2 = document.getElementById("source02");
+        var elem3 = document.getElementById("source01");
+        var elem4 = document.getElementById("source00");
+        if (document.source00.bigBox.checked == true) {
+         elem4.style.background = "#CC0000";
+         elem1.style.background = "white";
+         elem2.style.background = "white";
+         elem3.style.background = "white";
+        }
+      }
+      function changeColorPP03() {
+        var elem1 = document.getElementById("purpose03");
+        var elem2 = document.getElementById("purpose02");
+        var elem3 = document.getElementById("purpose01");
+        var elem4 = document.getElementById("purpose00");
+        if (document.purpose03.bigBox.checked == true) {
+         elem1.style.background = "green";
+         elem2.style.background = "white";
+         elem3.style.background = "white";
+         elem4.style.background = "white";
+        }
+      }
+      function changeColorPP02() {
+        var elem1 = document.getElementById("purpose03");
+        var elem2 = document.getElementById("purpose02");
+        var elem3 = document.getElementById("purpose01");
+        var elem4 = document.getElementById("purpose00");
+        if (document.purpose02.bigBox.checked == true) {
+         elem2.style.background = "yellow";
+         elem1.style.background = "white";
+         elem3.style.background = "white";
+         elem4.style.background = "white";
+        }
+      }
+      function changeColorPP01() {
+        var elem1 = document.getElementById("purpose03");
+        var elem2 = document.getElementById("purpose02");
+        var elem3 = document.getElementById("purpose01");
+        var elem4 = document.getElementById("purpose00");
+        if (document.purpose01.bigBox.checked == true) {
+         elem3.style.background = " #FF8C00";
+         elem2.style.background = "white";
+         elem1.style.background = "white";
+         elem4.style.background = "white";
+        }
+      }
+      function changeColorPP00() {
+        var elem1 = document.getElementById("purpose03");
+        var elem2 = document.getElementById("purpose02");
+        var elem3 = document.getElementById("purpose01");
+        var elem4 = document.getElementById("purpose00");
+        if (document.purpose00.bigBox.checked == true) {
+         elem4.style.background = "#CC0000";
+         elem2.style.background = "white";
+         elem3.style.background = "white";
+         elem1.style.background = "white";
+        }
+      }
+      function changeColorD03() {
+        var elem1 = document.getElementById("date03");
+        var elem2 = document.getElementById("date02");
+        var elem3 = document.getElementById("date01");
+        var elem4 = document.getElementById("date00");
+        if (document.date03.bigBox.checked == true) {
+         elem1.style.background = "green";
+         elem2.style.background = "white";
+         elem3.style.background = "white";
+         elem4.style.background = "white";
+        }
+      }
+      function changeColorD02() {
+        var elem1 = document.getElementById("date03");
+        var elem2 = document.getElementById("date02");
+        var elem3 = document.getElementById("date01");
+        var elem4 = document.getElementById("date00");
+        if (document.date02.bigBox.checked == true) {
+         elem2.style.background = "yellow";
+         elem1.style.background = "white";
+         elem3.style.background = "white";
+         elem4.style.background = "white";
+        }
+      }
+      function changeColorD01() {
+        var elem1 = document.getElementById("date03");
+        var elem2 = document.getElementById("date02");
+        var elem3 = document.getElementById("date01");
+        var elem4 = document.getElementById("date00");
+        if (document.date01.bigBox.checked == true) {
+         elem3.style.background = " #FF8C00";
+         elem2.style.background = "white";
+         elem1.style.background = "white";
+         elem4.style.background = "white";
+        }
+      }
+      function changeColorD00() {
+        var elem1 = document.getElementById("date03");
+        var elem2 = document.getElementById("date02");
+        var elem3 = document.getElementById("date01");
+        var elem4 = document.getElementById("date00");
+        if (document.date00.bigBox.checked == true) {
+         elem4.style.background = "#CC0000";
+         elem2.style.background = "white";
+         elem3.style.background = "white";
+         elem1.style.background = "white";
+        }
+      }
+      function changeColorSB03() {
+        var elem1 = document.getElementById("substance03");
+        var elem2 = document.getElementById("substance02");
+        var elem3 = document.getElementById("substance01");
+        var elem4 = document.getElementById("substance00");
+        if (document.substance03.bigBox.checked == true) {
+         elem1.style.background = "green";
+         elem2.style.background = "white";
+         elem3.style.background = "white";
+         elem4.style.background = "white";
+        }
+      }
+      function changeColorSB02() {
+        var elem1 = document.getElementById("substance03");
+        var elem2 = document.getElementById("substance02");
+        var elem3 = document.getElementById("substance01");
+        var elem4 = document.getElementById("substance00");
+        if (document.substance02.bigBox.checked == true) {
+         elem2.style.background = "yellow";
+         elem1.style.background = "white";
+         elem3.style.background = "white";
+         elem4.style.background = "white";
+        }
+      }
+      function changeColorSB01() {
+        var elem1 = document.getElementById("substance03");
+        var elem2 = document.getElementById("substance02");
+        var elem3 = document.getElementById("substance01");
+        var elem4 = document.getElementById("substance00");
+        if (document.substance01.bigBox.checked == true) {
+         elem3.style.background = " #FF8C00";
+         elem2.style.background = "white";
+         elem1.style.background = "white";
+         elem4.style.background = "white";
+        }
+      }
+      function changeColorSB00() {
+        var elem1 = document.getElementById("substance03");
+        var elem2 = document.getElementById("substance02");
+        var elem3 = document.getElementById("substance01");
+        var elem4 = document.getElementById("substance00");
+        if (document.substance00.bigBox.checked == true) {
+         elem4.style.background = "#CC0000";
+         elem2.style.background = "white";
+         elem3.style.background = "white";
+         elem1.style.background = "white";
+        }
+      }
+      //allows entire box to be clicked rather than just the checkbox
+      function boxValidateA3() {
+        if (document.author03.bigBox.checked == false) {
+            document.author03.bigBox.checked = true;
+        } else {
+          document.author03.bigBox.checked = false;
+        }
+      }
+      function boxValidateA2() {
+        if (document.author02.bigBox.checked == false) {
+            document.author02.bigBox.checked = true;
+        } else {
+          document.author02.bigBox.checked = false;
+        }
+      }
+      function boxValidateA1() {
+        if (document.author01.bigBox.checked == false) {
+            document.author01.bigBox.checked = true;
+        } else {
+          document.author01.bigBox.checked = false;
+        }
+      }
+      function boxValidateA0() {
+        if (document.author00.bigBox.checked == false) {
+            document.author00.bigBox.checked = true;
+        } else {
+          document.author00.bigBox.checked = false;
+        }
+      }
+      function boxValidatePB3() {
+        if (document.publisher03.bigBox.checked == false) {
+            document.publisher03.bigBox.checked = true;
+        } else {
+          document.publisher03.bigBox.checked = false;
+        }
+      }
+      function boxValidatePB2() {
+        if (document.publisher02.bigBox.checked == false) {
+            document.publisher02.bigBox.checked = true;
+        } else {
+          document.publisher02.bigBox.checked = false;
+        }
+      }
+      function boxValidatePB1() {
+        if (document.publisher01.bigBox.checked == false) {
+            document.publisher01.bigBox.checked = true;
+        } else {
+          document.publisher01.bigBox.checked = false;
+        }
+      }
+      function boxValidatePB0() {
+        if (document.publisher00.bigBox.checked == false) {
+            document.publisher00.bigBox.checked = true;
+        } else {
+          document.publisher00.bigBox.checked = false;
+        }
+      }
+      function boxValidateSC3() {
+        if (document.source03.bigBox.checked == false) {
+            document.source03.bigBox.checked = true;
+        } else {
+          document.source03.bigBox.checked = false;
+        }
+      }
+      function boxValidateSC2() {
+        if (document.source02.bigBox.checked == false) {
+            document.source02.bigBox.checked = true;
+        } else {
+          document.source02.bigBox.checked = false;
+        }
+      }
+      function boxValidateSC1() {
+        if (document.source01.bigBox.checked == false) {
+            document.source01.bigBox.checked = true;
+        } else {
+          document.source01.bigBox.checked = false;
+        }
+      }
+      function boxValidateSC0() {
+        if (document.source00.bigBox.checked == false) {
+            document.source00.bigBox.checked = true;
+        } else {
+          document.source00.bigBox.checked = false;
+        }
+      }
+      function boxValidatePP3() {
+        if (document.purpose03.bigBox.checked == false) {
+            document.purpose03.bigBox.checked = true;
+        } else {
+          document.purpose03.bigBox.checked = false;
+        }
+      }
+      function boxValidatePP2() {
+        if (document.purpose02.bigBox.checked == false) {
+            document.purpose02.bigBox.checked = true;
+        } else {
+          document.purpose02.bigBox.checked = false;
+        }
+      }
+      function boxValidatePP1() {
+        if (document.purpose01.bigBox.checked == false) {
+            document.purpose01.bigBox.checked = true;
+        } else {
+          document.purpose01.bigBox.checked = false;
+        }
+      }
+      function boxValidatePP0() {
+        if (document.purpose00.bigBox.checked == false) {
+            document.purpose00.bigBox.checked = true;
+        } else {
+          document.purpose00.bigBox.checked = false;
+        }
+      }
+      function boxValidateD3() {
+        if (document.date03.bigBox.checked == false) {
+            document.date03.bigBox.checked = true;
+        } else {
+          document.date03.bigBox.checked = false;
+        }
+      }
+      function boxValidateD2() {
+        if (document.date02.bigBox.checked == false) {
+            document.date02.bigBox.checked = true;
+        } else {
+          document.date02.bigBox.checked = false;
+        }
+      }
+      function boxValidateD1() {
+        if (document.date01.bigBox.checked == false) {
+            document.date01.bigBox.checked = true;
+        } else {
+          document.date01.bigBox.checked = false;
+        }
+      }
+      function boxValidateD0() {
+        if (document.date00.bigBox.checked == false) {
+            document.date00.bigBox.checked = true;
+        } else {
+          document.date00.bigBox.checked = false;
+        }
+      }
+      function boxValidateSB3() {
+        if (document.substance03.bigBox.checked == false) {
+            document.substance03.bigBox.checked = true;
+        } else {
+          document.substance03.bigBox.checked = false;
+        }
+      }
+      function boxValidateSB2() {
+        if (document.substance02.bigBox.checked == false) {
+            document.substance02.bigBox.checked = true;
+        } else {
+          document.substance02.bigBox.checked = false;
+        }
+      }
+      function boxValidateSB1() {
+        if (document.substance01.bigBox.checked == false) {
+            document.substance01.bigBox.checked = true;
+        } else {
+          document.substance01.bigBox.checked = false;
+        }
+      }
+      function boxValidateSB0() {
+        if (document.substance00.bigBox.checked == false) {
+            document.substance00.bigBox.checked = true;
+        } else {
+          document.substance00.bigBox.checked = false;
+        }
+      }
+		</script>
+<table>
+    	<tr id="goof">
+            <td>Score</td>
+            <td>Category</td>
+            <td>3</td>
+            <td>2</td>
+            <td>1</td>
+            <td>0</td>
+        </tr>
+        <tr id="author">
+          <td id="side1"><div id="A1"></div></td>
+        	<td><u><strong>Author:</strong></u><br>
+What are the author's credentials and affiliation? Is the author an expert?</td>
+			<td id="author03" onClick="boxValidateA3(); validatorA03(); add(); killMePleaseA3(); changeColorA03();">The author's credentials indicate that he/she is an expert on this topic. The author gives contact info or professional affiliation.
+            <form name="author03">
+               <input type="checkbox" style="display: none;" name="bigBox" onClick="validatorA03(); add(); killMePleaseA3(); changeColorA03();"/>
+            </form>
+            </td>
+            <td id="author02" onClick="boxValidateA2(); validatorA02(); add(); killMePleaseA2(); changeColorA02();">The author is named but credentials and/or contact info (online sources) is incomplete.
+            <form name="author02">
+      			   <input type="checkbox" style="display: none;" name="bigBox" onClick="validatorA02(); add(); killMePleaseA2(); changeColorA02();"/>
+      		  </form>
+            </td>
+            <td id="author01" onClick="boxValidateA1(); validatorA01(); add(); killMePleaseA1(); changeColorA01();">The author is unnamed and/or no credentials are given.
+            <form name="author01">
+      			   <input type="checkbox" style="display: none;" name="bigBox" onClick="validatorA01(); add(); killMePleaseA1(); changeColorA01();"/>
+      		  </form>
+            </td>
+            <td id="author00" onClick="boxValidateA0(); validatorA00(); add(); killMePleaseA0(); changeColorA00();">The author is named, but is clearly not an expert on the topic (published by student or fans).
+            <form name="author00">
+      			    <input type="checkbox" style="display: none;"   name="bigBox" onClick="validatorA00(); add(); killMePleaseA0(); changeColorA00();"/>
+      		  </form>
+            </td>
+		</tr>
+        <tr id="publisher">
+          <td id="side2"><div id="P1"></div></td>
+        	<td><u><strong>Publisher:</strong></u><br>
+            	Is the source published by a reputable publisher or organization?</td>
+            <td id="publisher03" onClick="boxValidatePB3(); validatorPB03(); add(); killMePleasePB3(); changeColorPB03();">Published by:<br>
+            	*U.S. Government (.gov) <br>
+            	*Scholarly Journal <br>
+				or <br>
+				in a Reference or academic book
+              <form name="publisher03">
+      				    <input type="checkbox" style="display: none;" name="bigBox" onClick="validatorPB03(); add(); killMePleasePB3(); changeColorPB03();"/>
+      			  </form>
+                </td>
+		            <td id="publisher02" onClick="boxValidatePB2(); validatorPB02(); add(); killMePleasePB2(); changeColorPB02();">Published by a known:
+				            *organization
+				            *university
+				            *business
+				            *magazine/newspaper
+				            or
+   				          in a print book
+                <form name="publisher02">
+      				      <input type="checkbox" style="display: none;" name="bigBox" onClick="validatorPB02(); add(); killMePleasePB2(); changeColorPB02();"/>
+      			    </form>
+                </td>
+   			<td id="publisher01" onClick="boxValidatePB1(); validatorPB01(); add(); killMePleasePB1(); changeColorPB01();">Published by:<br>
+   			    *a K-12 school<br>
+   			    *an unknown business(.com)<br>
+		    	*an unknown organization (.org).
+                <form name="publisher01">
+      				<input type="checkbox" style="display: none;" name="bigBox" onClick="validatorPB01(); add(); killMePleasePB1(); changeColorPB01();"/>
+      			</form>
+                </td>
+            <td id="publisher00" onClick="boxValidatePB0(); validatorPB00(); add(); killMePleasePB0(); changeColorPB00();">Self-published:<br>
+              blogs, personal web pages, etc.
+			  Look for the symbols ~% or the words "users" "members" etc. in the URL
+              <form name="publisher00">
+      			<input type="checkbox" style="display: none;" name="bigBox" onClick="validatorPB00(); add(); killMePleasePB0(); changeColorPB00();"/>
+      		  </form>
+              </td>
+        </tr>
+        <tr id="source">
+          <td id="side3"><div id="S1"></div></td>
+        	  <td><u><strong>Sources Cited:</strong></u><br>
+       	      Is the information cited?</td>
+              <td id="source03" onClick="boxValidateSC3(); validatorSC03(); add(); killMePleaseSC3(); changeColorSC03();">The work is original research/info by a reputable source.  There is a Works Cited list and/or a Bibliography.
+              <form name="source03">
+      		      <input type="checkbox" style="display: none;" name="bigBox" onClick="validatorSC03(); add(); killMePleaseSC3(); changeColorSC03();"/>
+      		  </form>
+              </td>
+              <td id="source02" onClick="boxValidateSC2(); validatorSC02(); add(); killMePleaseSC2(); changeColorSC02();">The work is a compilation of research/info by a reputable source. No Works Cited information as a list.
+              <form name="source02">
+      			  <input type="checkbox" style="display: none;" name="bigBox" onClick="validatorSC02(); add(); killMePleaseSC2(); changeColorSC02();"/>
+      		  </form>
+              </td>
+              <td id="source01" onClick="boxValidateSC1(); validatorSC01(); add(); killMePleaseSC1(); changeColorSC01();">There is a statement about the source of information embedded in the source, but no Works Cited list.
+              <form name="source01">
+      		  	  <input type="checkbox" style="display: none;" name="bigBox" onClick="validatorSC01(); add(); killMePleaseSC1(); changeColorSC01();"/>
+      		  </form>
+              </td>
+              <td id="source00" onClick="boxValidateSC0(); validatorSC00(); add(); killMePleaseSC0(); changeColorSC00();">No indication of where the information came from.
+              <form name="source00">
+      			  <input type="checkbox" style="display: none;" name="bigBox" onClick="validatorSC00(); add(); killMePleaseSC0(); changeColorSC00();"/>
+      		  </form>
+              </td>
+        </tr>	
+        <tr id="purpose">
+          <td id="side4"><div id="P2"></div></td>
+         <td><u><strong>Purpose:</strong></u><br>
+       	      Why was this information published?</td>
+              <td id="purpose03" onClick="boxValidatePP3(); validatorPP03(); add(); killMePleasePP3(); changeColorPP03();">To promote scholarly research.
+              <form name="purpose03">
+      			  <input type="checkbox" style="display: none;" name="bigBox" onClick="validatorPP03(); add(); killMePleasePP3(); changeColorPP03();"/>
+      		  </form>
+              </td>
+              <td id="purpose02" onClick="boxValidatePP2(); validatorPP02(); add(); killMePleasePP2(); changeColorPP02();">To provide factual information. Some opinion may be included.
+              <form name="purpose02">
+      			  <input type="checkbox" style="display: none;" name="bigBox" onClick="validatorPP02(); add(); killMePleasePP2(); changeColorPP02();"/>
+      		  </form>
+              </td>
+              <td id="purpose01" onClick="boxValidatePP1(); validatorPP01(); add(); killMePleasePP1(); changeColorPP01();">To sell something, to persuade, or to promote an idea.
+              <form name="purpose01">
+      			  <input type="checkbox" style="display: none;" name="bigBox" onClick="validatorPP01(); add(); killMePleasePP1(); changeColorPP01();"/>
+      		  </form>
+              </td>
+              <td id="purpose00" onClick="boxValidatePP0(); validatorPP00(); add(); killMePleasePP0(); changeColorPP00();">For personal or entertainment purposes.
+              <form name="purpose00">
+      			  <input type="checkbox" style="display: none;" name="bigBox" onClick="validatorPP00(); add(); killMePleasePP0(); changeColorPP00();"/>
+      		  </form>
+              </td>
+       </tr> 
+      <tr id="date">
+        <td id="side5"><div id="D1"></div></td>
+        	<td><u><strong>Date:</strong></u><br>
+       	  How current is the information?</td>
+          <td id="date03" onClick="boxValidateD3(); validatorD03(); add(); killMePleaseD3(); changeColorD03();">Online:<br>
+            The info is less than 1 year old.<br>
+            <br>
+            Print:<br>
+          The info is less than 3 years old.
+          	  <form name="date03">
+      			  <input type="checkbox" style="display: none;" name="bigBox" onClick="validatorD03(); add(); killMePleaseD3(); changeColorD03();"/>
+      		  </form>
+          </td>
+          <td id="date02" onClick="boxValidateD2(); validatorD02(); add(); killMePleaseD2(); changeColorD02();">Online:<br>
+            The info is less than 3 years old.<br>
+            <br>
+            Print:<br>
+          The information is more than 3 years old, but is not necessarily out of date.
+          	  <form name="date02">
+      			  <input type="checkbox" style="display: none;" name="bigBox" onClick="validatorD02(); add(); killMePleaseD2(); changeColorD02();"/>
+      		  </form>
+          </td>
+        <td  id="date01" onClick="boxValidateD1(); validatorD01(); add(); killMePleaseD1(); changeColorD01();">The information is more than five years old.
+        	  <form name="date01">
+      			  <input type="checkbox" style="display: none;" name="bigBox" onClick="validatorD01(); add(); killMePleaseD1(); changeColorD01();"/>
+      		  </form>
+        </td>
+        <td id="date00" onClick="boxValidateD0(); validatorD00(); add(); killMePleaseD0(); changeColorD00();">There is no indication of when the information was published.
+        	  <form name="date00">
+      			  <input type="checkbox" style="display: none;" name="bigBox" onClick="validatorD00(); add(); killMePleaseD0(); changeColorD00();"/>
+      		  </form>
+        </td>
+      </tr>
+       <tr id="substance">
+        <td id="side6"><div id="S2"></div></td>
+        	<td><u><strong>Substance:</strong></u></td>
+            <td id="substance03" onClick="boxValidateSB3(); validatorSB03(); add(); killMePleaseSB3(); changeColorSB03();">Depth of coverage needed for your purpose <em>and</em> written at a college or professional level.
+              <form name="substance03">
+      			  <input type="checkbox" style="display: none;" name="bigBox" onClick="validatorSB03(); add(); killMePleaseSB3(); changeColorSB03();"/>
+      		  </form>
+            </td>
+         <td id="substance02" onClick="boxValidateSB2(); validatorSB02(); add(); killMePleaseSB2(); changeColorSB02();">Written for the general public.
+         	  <form name="substance02">
+      			  <input type="checkbox" style="display: none;" name="bigBox" onClick="validatorSB02(); add(); killMePleaseSB2(); changeColorSB02();"/>
+      		  </form>
+         </td>
+         <td id="substance01" onClick="boxValidateSB1(); validatorSB01(); add(); killMePleaseSB1(); changeColorSB01();">Lacking the depth needed for your purpose.
+         	  <form name="substance01">
+      			  <input type="checkbox" style="display: none;" name="bigBox" onClick="validatorSB01(); add(); killMePleaseSB1(); changeColorSB01();"/>
+      		  </form>
+         </td>
+         <td id="substance00" onClick="boxValidateSB0(); validatorSB00(); add(); killMePleaseSB0(); changeColorSB00();">No depth, contains excessive colloquialisms, slang, use of "I."
+         	  <form name="substance00">
+      			  <input type="checkbox" style="display: none;" name="bigBox" onClick="validatorSB00(); add(); killMePleaseSB0(); changeColorSB00();"/>
+      		  </form>
+         </td>
+       </tr>
+       <tr id="stuff">
+        <td colspan="6">
+          <div id="help">Total Score:</div>
+          <div id="total">0</div>
+        </td>
+
+    <tr><td id="bum" colspan="6">Score Totals:</td></tr>
+	<tr><td id="lowScore" colspan="6">0-6	<strong>This source is highly questionable. Should not be used in research without suitable justification.</strong> (Attach your reasons for using a source with this score).</td></tr>
+	<tr><td id="lowMedScore" colspan="6">7-10	<strong>The site may be an acceptable starting point for gathering information, but may not be suitable as a cited source in a research project.</strong></td></tr>
+	<tr><td id="highMedScore" colspan="6">11-14	<strong>Good source for research. Information should be confirmed in other sources.</strong></td></tr>
+	  <tr><td id="highScore" colspan="6">15-18 <strong>Excellent source for research purposes.</strong></td></tr>
+      </table>
+      
+      
+</body>
+</html>

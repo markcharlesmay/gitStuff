@@ -1,0 +1,96 @@
+@charset "UTF-8";
+/* CSS Document */
+table {
+	margin-left: 265px;
+	margin-right: 265px;
+}
+* {
+	font-weight: bold;
+}
+td {
+	padding: 11px;
+	min-width: 75px;
+	max-width: 200px;
+	text-align: center;
+}
+body {
+	background-color: white;
+}
+#goof {
+	background-color: white;
+}
+#bum {
+	font-size: 30px;
+	background-color: white;
+}
+#highMedScore {
+	background-color: white;
+}
+#highScore {
+	background-color: white;
+}
+#lowMedScore {
+	background-color: white;
+}
+#lowScore {
+	background-color: white;
+}
+#author {
+	background-color: white;
+}
+
+#publisher {
+	background-color: white;	
+}
+
+#source {
+	background-color: white;	
+}
+
+#purpose {
+	background-color: white;	
+}
+
+#date {
+	background-color: white;	
+}
+
+#substance {
+	background-color: white;	
+}
+#total {
+	color: black;
+}
+#help {
+	color: black;
+}
+#stuff {
+	font-size: 40px;
+	height: 50px;
+	text-align: left;
+	background-color: white;
+}
+#side1 {
+	width: 75px;
+	font-size: 30px;
+}
+#side2 {
+	width: 75px;
+	font-size: 30px;
+}
+#side3 {
+	width: 75px;
+	font-size: 30px;
+}
+#side4 {
+	width: 75px;
+	font-size: 30px;
+}
+#side5 {
+	width: 75px;
+	font-size: 30px;
+}
+#side6 {
+	width: 75px;
+	font-size: 30px;
+}
